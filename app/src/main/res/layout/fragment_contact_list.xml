@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/contact_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/st_name_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="@string/static_name"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/barrier_1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/st_last_name_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="@string/static_last_name"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/barrier_1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/st_name_1" />
+
+                <TextView
+                    android:id="@+id/st_number_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="@string/static_number"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/barrier_1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/st_last_name_1" />
+
+                <androidx.constraintlayout.widget.Barrier
+                    android:id="@+id/barrier_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:barrierDirection="end"
+                    app:constraint_referenced_ids="st_name_1, st_last_name_1, st_number_1" />
+
+                <TextView
+                    android:id="@+id/name_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Владимир"
+                    android:textSize="17sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/barrier_1"
+                    app:layout_constraintTop_toTopOf="@id/st_name_1" />
+
+                <TextView
+                    android:id="@+id/last_name_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Зеленский"
+                    android:textSize="17sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/barrier_1"
+                    app:layout_constraintTop_toTopOf="@id/st_last_name_1" />
+
+                <TextView
+                    android:id="@+id/number_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="+79280000001"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/barrier_1"
+                    app:layout_constraintTop_toTopOf="@id/st_number_1" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/contact_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/st_name_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="@string/static_name"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/barrier_2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/st_last_name_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="@string/static_last_name"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/barrier_2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/st_name_2" />
+
+                <TextView
+                    android:id="@+id/st_number_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="@string/static_number"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/barrier_2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/st_last_name_2" />
+
+                <androidx.constraintlayout.widget.Barrier
+                    android:id="@+id/barrier_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:barrierDirection="end"
+                    app:constraint_referenced_ids="st_name_2, st_last_name_2, st_number_2" />
+
+                <TextView
+                    android:id="@+id/name_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Ангела"
+                    android:textSize="17sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/barrier_2"
+                    app:layout_constraintTop_toTopOf="@id/st_name_2" />
+
+                <TextView
+                    android:id="@+id/last_name_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Меркель"
+                    android:textSize="17sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/barrier_2"
+                    app:layout_constraintTop_toTopOf="@id/st_last_name_2" />
+
+                <TextView
+                    android:id="@+id/number_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="+79280000002"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/barrier_2"
+                    app:layout_constraintTop_toTopOf="@id/st_number_2" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/contact_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/st_name_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="@string/static_name"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/barrier_3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/st_last_name_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="@string/static_last_name"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/barrier_3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/st_name_3" />
+
+                <TextView
+                    android:id="@+id/st_number_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="@string/static_number"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/barrier_3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/st_last_name_3" />
+
+                <androidx.constraintlayout.widget.Barrier
+                    android:id="@+id/barrier_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:barrierDirection="end"
+                    app:constraint_referenced_ids="st_name_3, st_last_name_3, st_number_3" />
+
+                <TextView
+                    android:id="@+id/name_3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Джо"
+                    android:textSize="17sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/barrier_3"
+                    app:layout_constraintTop_toTopOf="@id/st_name_3" />
+
+                <TextView
+                    android:id="@+id/last_name_3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Байден"
+                    android:textSize="17sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/barrier_3"
+                    app:layout_constraintTop_toTopOf="@id/st_last_name_3" />
+
+                <TextView
+                    android:id="@+id/number_3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="+79280000003"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/barrier_3"
+                    app:layout_constraintTop_toTopOf="@id/st_number_3" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/contact_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/st_name_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="@string/static_name"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/barrier_4"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/st_last_name_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="@string/static_last_name"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/barrier_4"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/st_name_4" />
+
+                <TextView
+                    android:id="@+id/st_number_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="@string/static_number"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@id/barrier_4"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/st_last_name_4" />
+
+                <androidx.constraintlayout.widget.Barrier
+                    android:id="@+id/barrier_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:barrierDirection="end"
+                    app:constraint_referenced_ids="st_name_4, st_last_name_4, st_number_4" />
+
+                <TextView
+                    android:id="@+id/name_4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Эмманюэль"
+                    android:textSize="17sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/barrier_4"
+                    app:layout_constraintTop_toTopOf="@id/st_name_4" />
+
+                <TextView
+                    android:id="@+id/last_name_4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Макрон"
+                    android:textSize="17sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/barrier_4"
+                    app:layout_constraintTop_toTopOf="@id/st_last_name_4" />
+
+                <TextView
+                    android:id="@+id/number_4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="+79280000004"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/barrier_4"
+                    app:layout_constraintTop_toTopOf="@id/st_number_4" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
